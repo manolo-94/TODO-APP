@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="str_bienvenido">Bienvenido</string>
+    <string name="str_gategoria">Categoria</string>
+    <string name="str_tareas">tareas</string>
+    <string name="str_nombreTarea">tarea</string>
+    <string name="str_hint_nuvea_tarea">Nueva tarea</string>
+    <string name="str_persona">Personal</string>
+    <string name="str_trabajo">Trabajo</string>
+    <string name="str_escuela">Escuela</string>
+    <string name="str_otro">Otro</string>
+    <string name="str_agregar_tarea">Agregar tarea</string>
+</resources>

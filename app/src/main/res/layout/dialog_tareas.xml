@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="16dp" >
+
+    <EditText
+        android:id="@+id/etNombreTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/str_hint_nuvea_tarea"/>
+
+    <RadioGroup
+        android:id="@+id/rgCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_persona"
+            android:checked="true"
+            android:buttonTint="@color/colorPersonal"/>
+
+        <RadioButton
+            android:id="@+id/rbTrabajo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_trabajo"
+            android:checked="true"
+            android:buttonTint="@color/colorTrabajo"/>
+
+        <RadioButton
+            android:id="@+id/rbEscuela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_escuela"
+            android:checked="true"
+            android:buttonTint="@color/colorEscuela"/>
+        <RadioButton
+            android:id="@+id/rbOtros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_otro"
+            android:checked="true"
+            android:buttonTint="@color/colorOtros"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btAgregarTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSecondaryVariant"
+        android:text="@string/str_agregar_tarea"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
